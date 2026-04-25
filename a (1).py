@@ -77,7 +77,7 @@ div[data-baseweb="input"] {
 </style>
 """, unsafe_allow_html=True)
 
-model = joblib.load("RF.pkl")
+model = joblib.load("logistic_model.pkl")
 
 st.markdown("<h1>⋆˚꩜ Study Success Predictor ꩜˚⋆</h1>", unsafe_allow_html=True)
 
